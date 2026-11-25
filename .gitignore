@@ -1,0 +1,35 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Runtime logs, outputs, backups & local state
+makawan_out/
+makawan_out_*/
+makawan_reports/
+makawan_tune/
+makawan_watchdog/
+late_backtest_results/
+sim_runs/
+code-backup-*/
+_to_delete/
+*.csv
+*.csv.bak
+*.jsonl
+*.log
+state.json
+settings.json
+params.json
+params_proposed.json
+
+# OS files
+.DS_Store
+Thumbs.db

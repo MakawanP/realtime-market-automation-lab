@@ -1,0 +1,6 @@
+requests
+rich
+tzdata
+pytest
+websockets
+pynacl
